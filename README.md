@@ -1,9 +1,9 @@
-# Antra REST API Demo
+# Spring REST API Demo
 ## INTRODUCTION
 ### Main application
-* Technologies used - Spring Boot, Spring Data JPA, Swagger
+* Technologies used - Spring Boot, Spring Data JPA, Spring Security, Swagger
 * Embedded Server - H2
-* Start the application by running [UserRestStarter class](src/main/java/com/antra/UserRestStarter.java)
+* Start the application by running [UserRestStarter class](src/main/java/rest_demo/SpringRestStarter.java)
 * Configuration file - [application.properties](src/main/resources/application.properties)
 * data.sql and schema.sql will be automatically populated during startup.
 * Swagger generated API doc can be accessed from [localhost:port/swagger-ui.html](localhost:8009/swagger-ui.html)
@@ -15,9 +15,4 @@
 
 
 ### Todo
-* For Simplicity, no security. We may add a basic http authentication later.
-* Jenkins integration / Email Notification  
-* Added Trigger for Jenkins
-
-## Contributor
-[Manas](mailto:manas.gampa@antra.com)
+* For Simplicity, use default Spring Security. Could add a basic http authentication later.
